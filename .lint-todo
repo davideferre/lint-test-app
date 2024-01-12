@@ -1,3 +1,5 @@
 add|eslint|acme/enforce-foo-bar|5|11|5|24|410d707eb2306febcfc3551668f83bcefb6ea6ce|1705017600000|1707609600000|1710201600000|app/controllers/application.ts
 add|eslint|no-undef|3|1|3|7|fbd34a2b6e6a9fe8161f97dc435642609ac0bc29|1705017600000|1707609600000|1710201600000|lib/eslint-plugin-acme/enforce-foo-bar.js
 add|eslint|prettier/prettier|5|5|5|51|5eb12744c3ea17084b55fed012c57c163f2a116a|1705017600000|1707609600000|1710201600000|lib/eslint-plugin-acme/index.js
+remove|eslint|acme/enforce-foo-bar|5|11|5|24|410d707eb2306febcfc3551668f83bcefb6ea6ce|1705017600000|1707609600000|1710201600000|app/controllers/application.ts
+remove|eslint|prettier/prettier|5|5|5|51|5eb12744c3ea17084b55fed012c57c163f2a116a|1705017600000|1707609600000|1710201600000|lib/eslint-plugin-acme/index.js
