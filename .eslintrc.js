@@ -6,7 +6,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest',
   },
-  plugins: ['ember', '@typescript-eslint'],
+  plugins: ['ember', '@typescript-eslint', 'acme'],
   extends: [
     'eslint:recommended',
     'plugin:ember/recommended',
@@ -15,7 +15,9 @@ module.exports = {
   env: {
     browser: true,
   },
-  rules: {},
+  rules: {
+    'acme/enforce-foo-bar': 'error',
+  },
   overrides: [
     // ts files
     {

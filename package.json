@@ -18,7 +18,7 @@
     "lint:fix": "concurrently \"npm:lint:*:fix\" --names \"fix:\"",
     "lint:hbs": "ember-template-lint .",
     "lint:hbs:fix": "ember-template-lint . --fix",
-    "lint:js": "eslint . --cache",
+    "lint:js": "UPDATE_TODO=1 eslint . --format @lint-todo/eslint-formatter-todo --cache",
     "lint:js:fix": "eslint . --fix",
     "lint:types": "tsc --noEmit",
     "start": "ember serve",
@@ -108,5 +108,9 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "dependencies": {
+    "@lint-todo/eslint-formatter-todo": "^4.0.3",
+    "eslint-plugin-acme": "link:lib/eslint-plugin-acme"
   }
 }
